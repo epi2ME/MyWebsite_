@@ -1,11 +1,11 @@
 To run: npm run dev
 
-React Installation: >npm create vite@latest ./ -- --template react
-                    >npm install react-icons
-                    >npm install
+React Installation: <br> >npm create vite@latest ./ -- --template react <br>
+                    <br> >npm install react-icons <br>
+                    <br> >npm install <br><br>
 
-Tailwind CSS Installation: >npm install -D tailwindcss postcss autoprefixer
-                           >npx tailwindcss init -p
+Tailwind CSS Installation: <br> >npm install -D tailwindcss postcss autoprefixer <br>
+                           <br> >npx tailwindcss init -p <br>
 
 
 
