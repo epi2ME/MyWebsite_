@@ -2,6 +2,9 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Home";
 import About from "./components/About";
 import Technologies from "./components/Technologies";
+import Education from "./components/Education";
+import { PROJECTS } from "./constants";
+import Projects from "./components/Projects";
 
 const App = () => {
   return (
@@ -12,7 +15,7 @@ const App = () => {
         <div className="absolute top-0 -z-10 h-full w-full bg-black">
           <div
             className="absolute bottom-auto left-auto right-auto top-0 h-[500px] w-[500px] 
-                      -translate-x-[60%] translate-y-[20%] rounded-full bg-[rgba(255,255,255,0.2)] opacity-50 blur-[80px]"
+                      -translate-x-[60%] translate-y-[20%] rounded-full bg-[rgba(255,255,255,0.3)] opacity-50 blur-[80px]"
           ></div>
         </div>
       </div>
@@ -21,6 +24,8 @@ const App = () => {
         <Hero />
         <About />
         <Technologies />
+        <Education />
+        <Projects />
       </div>
     </div>
   );

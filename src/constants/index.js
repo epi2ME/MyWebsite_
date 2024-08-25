@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/myWebsite.png";
+import project2 from "../assets/projects/Archiving-System.png";
+import project3 from "../assets/projects/ClimaTech.png";
+import project4 from "../assets/projects/myWebsite.png";
 
 export const HERO_CONTENT = `Hello! I am a university student currently studying Information Technology, Major in Business Analytics. 
                             With skills gained from school and different web resources, my goal is to leverage my skills to create innovative 
@@ -15,65 +15,48 @@ export const ABOUT_TEXT = `As a versatile developer with a strong foundation in 
                            problem-solving skills sharp. Whether it's exploring the outdoors, participating in sports, or indulging in artistic activities, 
                            these hobbies provide me with a well-rounded perspective that I bring back into my work. `;
 
-export const EXPERIENCES = [
+export const EDUCATION = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2021 - Present",
+    school: "Batangas State University - The National Engineering University - Alangilan",
+    description: "Bachelor of Science in Information Technology - Major in Business Analytics",
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2015 - 2021",
+    school: "Ibaan Saint James Academy, Inc.",
+    description: "STEM (Science, Technology, Engineering and Mathematics",
+    honors: "With High Honors"
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Portfolio Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "You are browsing on my personal portfolio website showcasing my profile, education, skills, and contact information. This website was developed in 2024.",
+    technologies: ["HTML", "CSS", "React", "Tailwind"],
   },
   {
-    title: "Task Management App",
+    title: "Research Archiving System ",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A functional archiving research hub for senior high school students in Ibaan Saint James Academy, Inc. The user will be upload their research documents. The admin will be able to edit and archive the documents for future research purposes. This system was developed in 2023.",
+    technologies: ["HTML", "CSS", "JavaScript", "PHP"],
   },
   {
-    title: "Portfolio Website",
+    title: "ClimaTech: Weather Application",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "This is a pure front-end mobile application developed for weather information using openweather API which includes real-time data about the location's temperature, humidity, wind speed, etc. This mobile application was developed in 2024.",
+    technologies: ["Flutter", "Dart"],
   },
   {
-    title: "Blogging Platform",
+    title: "Integrated Membership and Loan Management System with Forecasting Analytics",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "This is a capstone project for SANGKAP Multi-Purpose Cooperative in managing their membership and loan processes. This system includes predictive/forecasting analytics to determine the loan application volume and loan revenue in the future years of operation.",
+    technologies: ["JavaScript", "React", "Tailwind", "Node.js", "Next.js", "PostgreSQL","Supabase","Python"],
   },
 ];
 
