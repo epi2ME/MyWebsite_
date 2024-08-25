@@ -1,3 +1,14 @@
+To run: npm run dev
+
+React Installation: <br><br> >npm create vite@latest ./ -- --template react <br>
+                    <br> >npm install react-icons <br>
+                    <br> >npm install <br><br>
+
+Tailwind CSS Installation: <br><br> >npm install -D tailwindcss postcss autoprefixer <br>
+                           <br> >npx tailwindcss init -p <br>
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
